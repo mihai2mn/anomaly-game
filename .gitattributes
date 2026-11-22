@@ -1,3 +1,2 @@
-# This repository is the website and demo downloads for a game written in Rust.
-# The page itself is not the project, so keep it out of the language stats.
-*.html linguist-documentation
+# The game this repository serves is written in Rust; count the page under the project's language.
+*.html linguist-language=Rust linguist-detectable=true
