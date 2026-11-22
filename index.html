@@ -481,6 +481,8 @@ const NAME = { windows: "Windows", linux: "Linux" };
             g = [word[off], add([[TEAL, 0.6 + amount], [CYAN, amount * 0.4]]), false];
           }
         }
+        // The field steps back behind the name so it can be read on any screen.
+        if (g && y >= markTop - 1 && y <= markTop + 7 * dh) g = [g[0], scale(g[1], 0.3), false];
         if (g) put(x, y, g[0], g[1], g[2]);
       }
     }
