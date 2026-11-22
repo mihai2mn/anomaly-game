@@ -1,0 +1,3 @@
+# This repository is the website and demo downloads for a game written in Rust.
+# The page itself is not the project, so keep it out of the language stats.
+*.html linguist-documentation
